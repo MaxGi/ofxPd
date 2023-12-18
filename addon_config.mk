@@ -32,7 +32,7 @@ common:
 linux64:
 	ADDON_LIBS_EXCLUDE = libs/libpd/libs
 	# support dynamic loading
-	ADDON_CFLAGS += -DHAVE_LIBDL
+	ADDON_CFLAGS += -DHAVE_LIBDL -DHAVE_ENDIAN_H
 
 linux:
 	ADDON_LIBS_EXCLUDE = libs/libpd/libs
